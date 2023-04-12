@@ -1,8 +1,7 @@
-import './App.css';
 import { useState, useEffect } from 'react';
-import Loading from './components/Loading';
+import Loading from './components/Loading/Loading';
 import axios from "axios";
-import TodoList from './components/TodoList';
+import TodoList from './components/TodoList/TodoList';
 
 function App() {
   const [todos, setTodos] = useState(null);
